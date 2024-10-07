@@ -1,0 +1,43 @@
+/*.container{
+background-color: aqua;
+height: 100px;
+width: 200px;
+margin-top: 60px;
+margin-left: 60px;
+padding-top: 50px;
+padding-left: 20ox;
+border: 7px solid red;
+border-radius: 80px;
+text-align: center;
+} 
+/*
+div >p matlab div ke direct children jo hai p
+div p matlab div ke children be it direct or indirect
+div +p matlab div ka adjacent sibling p
+this only works when the latter element is the written 
+later
+*/
+
+div >p{
+    background-color: darkorchid;
+}
+
+div+p{
+    background-color: brown;
+}
+
+.child1,.child2,.child3{
+    border: 2px solid rgb(255, 155, 6);
+    height: 100px;
+    width:100px;
+    background-color: rgb(255, 230, 0);
+    display: inline-block;
+    margin: 20px;
+
+}
+.container{
+    background-color: blue;
+    height: 300px;
+   
+}
+
