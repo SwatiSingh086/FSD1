@@ -1,10 +1,92 @@
-// console.log("yo wazaaaaaaaaap");
-console.log(document);
-let parent=document.getElementsByClassName("yo");
-console.log(parent);
-// document.getElementById("yo").innerHTML="hello";
+const promise=new Promise((resolve,reject)=>{
+    
+})
 
-parent[0].innerHTML="<h2 style=color:red>data was changed</h2>";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let parent=document.getElementsByClassName("parent");
+// console.log(parent);
+
+
+// function getData(){
+//     console.log("Hi,inside function");
+//     parent[0].innerText="hi,inside func";
+// }
+// const button= document.getElementsByClassName("btn");
+// console.log(button);
+// button[0].addEventListener("click",getData);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// // console.log("yo wazaaaaaaaaap");
+// console.log(document);
+// let parent=document.getElementsByClassName("yo");
+// console.log(parent);
+// // document.getElementById("yo").innerHTML="hello";
+
+// parent[0].innerHTML="<h2 style=color:red>data was changed</h2>";
+
+// console.log("hellooooooo");
+// let parent= document.getElementsByClassName("parent");
+// console.log(parent);
+// const h1=document.createElement("h1");
+// console.log(h1);
+// h1.innerText="abes engineering college";
+// console.log(h1);
+// h1.style.backgroundColor="cyan";
+// h1.style.color="red";
+// h1.style.padding="20px";
+// h1.style.marginLeft="300px";
+// parent[0].appendChild(h1);
+// const img=document.createElement("img");
+// img.src="./img1.jpg";
 
 
 
