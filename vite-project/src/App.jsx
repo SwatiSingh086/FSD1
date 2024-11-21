@@ -2,11 +2,12 @@ import React from 'react';
 import './App.css';
 
 import Student from "./Student"
+import MyUseEffect from './MyUseEffect';
 function App() {
   const h1=<h1>hello world</h1>;
 const mystyle={
   color:'yellow',
-  backgroundColor:'black'
+  backgroundColor:'pink'
 
 }
 
@@ -18,22 +19,24 @@ const stdata={
 
 }
     return (
-      <div style={{backgroundColor:'pink'}}>
-        {h1}
-         <div style={mystyle}>
-          ABES ENGINEERING COLLEGE
-        </div>
-        <div style={{display:'flex'}}>
-          <Student data={stdata}></Student>
-          {/* <><Student college="ABES ENGG COLLEGE" name="supriya" branch="cse" section="b" pic={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height="100px"></img>}/></>
-          <><Student college="ABES ENGG COLLEGE" name="supriya" branch="cse" section="b"pic={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height="100px"></img>}/></>
-          <><Student college="ABES ENGG COLLEGE" name="supriya" branch="cse" section="b"pic={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height="100px"></img>}/></>
-          <><Student college="ABES ENGG COLLEGE" name="supriya" branch="cse" section="b"pic={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height="100px"></img>}/></> */}
+      // <div style={{backgroundColor:'pink'}}>
+      //   {h1}
+      //    <div style={mystyle}>
+      //     ABES ENGINEERING COLLEGE
+      //   </div>
+      //   <div style={{display:'flex'}}>
+      //     <Student data={stdata}></Student>
+      //     {/* <><Student college="ABES ENGG COLLEGE" name="supriya" branch="cse" section="b" pic={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height="100px"></img>}/></>
+      //     <><Student college="ABES ENGG COLLEGE" name="supriya" branch="cse" section="b"pic={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height="100px"></img>}/></>
+      //     <><Student college="ABES ENGG COLLEGE" name="supriya" branch="cse" section="b"pic={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height="100px"></img>}/></>
+      //     <><Student college="ABES ENGG COLLEGE" name="supriya" branch="cse" section="b"pic={<img src='https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png' height="100px"></img>}/></> */}
           
-        </div> 
-      </div>
-        
-    );
+      //   </div> 
+      // </div>
+        <div>
+          <MyUseEffect/>
+        </div>
+    )
 }
 
  
